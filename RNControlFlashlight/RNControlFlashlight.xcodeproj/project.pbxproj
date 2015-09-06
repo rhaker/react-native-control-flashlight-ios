@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF064BF11B9CF99C00FD9B52 /* RNControlFlashlight.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF064BF01B9CF99C00FD9B52 /* RNControlFlashlight.h */; };
+		DF064BF31B9CF99C00FD9B52 /* RNControlFlashlight.m in Sources */ = {isa = PBXBuildFile; fileRef = DF064BF21B9CF99C00FD9B52 /* RNControlFlashlight.m */; };
+		DF064BF91B9CF99D00FD9B52 /* libRNControlFlashlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF064BED1B9CF99C00FD9B52 /* libRNControlFlashlight.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF064BFA1B9CF99D00FD9B52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF064BE51B9CF99C00FD9B52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF064BEC1B9CF99C00FD9B52;
+			remoteInfo = RNControlFlashlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF064BEB1B9CF99C00FD9B52 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DF064BF11B9CF99C00FD9B52 /* RNControlFlashlight.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF064BED1B9CF99C00FD9B52 /* libRNControlFlashlight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNControlFlashlight.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF064BF01B9CF99C00FD9B52 /* RNControlFlashlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNControlFlashlight.h; sourceTree = "<group>"; };
+		DF064BF21B9CF99C00FD9B52 /* RNControlFlashlight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNControlFlashlight.m; sourceTree = "<group>"; };
+		DF064BF81B9CF99D00FD9B52 /* RNControlFlashlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNControlFlashlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF064BFE1B9CF99D00FD9B52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF064BEA1B9CF99C00FD9B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF064BF51B9CF99D00FD9B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF064BF91B9CF99D00FD9B52 /* libRNControlFlashlight.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF064BE41B9CF99C00FD9B52 = {
+			isa = PBXGroup;
+			children = (
+				DF064BEF1B9CF99C00FD9B52 /* RNControlFlashlight */,
+				DF064BFC1B9CF99D00FD9B52 /* RNControlFlashlightTests */,
+				DF064BEE1B9CF99C00FD9B52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF064BEE1B9CF99C00FD9B52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF064BED1B9CF99C00FD9B52 /* libRNControlFlashlight.a */,
+				DF064BF81B9CF99D00FD9B52 /* RNControlFlashlightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF064BEF1B9CF99C00FD9B52 /* RNControlFlashlight */ = {
+			isa = PBXGroup;
+			children = (
+				DF064BF01B9CF99C00FD9B52 /* RNControlFlashlight.h */,
+				DF064BF21B9CF99C00FD9B52 /* RNControlFlashlight.m */,
+			);
+			path = RNControlFlashlight;
+			sourceTree = "<group>";
+		};
+		DF064BFC1B9CF99D00FD9B52 /* RNControlFlashlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF064BFD1B9CF99D00FD9B52 /* Supporting Files */,
+			);
+			path = RNControlFlashlightTests;
+			sourceTree = "<group>";
+		};
+		DF064BFD1B9CF99D00FD9B52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF064BFE1B9CF99D00FD9B52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF064BEC1B9CF99C00FD9B52 /* RNControlFlashlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF064C011B9CF99D00FD9B52 /* Build configuration list for PBXNativeTarget "RNControlFlashlight" */;
+			buildPhases = (
+				DF064BE91B9CF99C00FD9B52 /* Sources */,
+				DF064BEA1B9CF99C00FD9B52 /* Frameworks */,
+				DF064BEB1B9CF99C00FD9B52 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNControlFlashlight;
+			productName = RNControlFlashlight;
+			productReference = DF064BED1B9CF99C00FD9B52 /* libRNControlFlashlight.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF064BF71B9CF99D00FD9B52 /* RNControlFlashlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF064C041B9CF99D00FD9B52 /* Build configuration list for PBXNativeTarget "RNControlFlashlightTests" */;
+			buildPhases = (
+				DF064BF41B9CF99D00FD9B52 /* Sources */,
+				DF064BF51B9CF99D00FD9B52 /* Frameworks */,
+				DF064BF61B9CF99D00FD9B52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF064BFB1B9CF99D00FD9B52 /* PBXTargetDependency */,
+			);
+			name = RNControlFlashlightTests;
+			productName = RNControlFlashlightTests;
+			productReference = DF064BF81B9CF99D00FD9B52 /* RNControlFlashlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF064BE51B9CF99C00FD9B52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rhaker;
+				TargetAttributes = {
+					DF064BEC1B9CF99C00FD9B52 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DF064BF71B9CF99D00FD9B52 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = DF064BE81B9CF99C00FD9B52 /* Build configuration list for PBXProject "RNControlFlashlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF064BE41B9CF99C00FD9B52;
+			productRefGroup = DF064BEE1B9CF99C00FD9B52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF064BEC1B9CF99C00FD9B52 /* RNControlFlashlight */,
+				DF064BF71B9CF99D00FD9B52 /* RNControlFlashlightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF064BF61B9CF99D00FD9B52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF064BE91B9CF99C00FD9B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF064BF31B9CF99C00FD9B52 /* RNControlFlashlight.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF064BF41B9CF99D00FD9B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF064BFB1B9CF99D00FD9B52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF064BEC1B9CF99C00FD9B52 /* RNControlFlashlight */;
+			targetProxy = DF064BFA1B9CF99D00FD9B52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF064BFF1B9CF99D00FD9B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF064C001B9CF99D00FD9B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF064C021B9CF99D00FD9B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF064C031B9CF99D00FD9B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF064C051B9CF99D00FD9B52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNControlFlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF064C061B9CF99D00FD9B52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNControlFlashlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF064BE81B9CF99C00FD9B52 /* Build configuration list for PBXProject "RNControlFlashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF064BFF1B9CF99D00FD9B52 /* Debug */,
+				DF064C001B9CF99D00FD9B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF064C011B9CF99D00FD9B52 /* Build configuration list for PBXNativeTarget "RNControlFlashlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF064C021B9CF99D00FD9B52 /* Debug */,
+				DF064C031B9CF99D00FD9B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF064C041B9CF99D00FD9B52 /* Build configuration list for PBXNativeTarget "RNControlFlashlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF064C051B9CF99D00FD9B52 /* Debug */,
+				DF064C061B9CF99D00FD9B52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF064BE51B9CF99C00FD9B52 /* Project object */;
+}

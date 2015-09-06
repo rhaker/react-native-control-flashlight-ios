@@ -1,0 +1,30 @@
+{
+  "name": "react-native-control-flashlight-ios",
+  "version": "0.1.0",
+  "description": "A react-native interface for controlling an ios device's flashlight. Can be on or off.",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "flashlight",
+    "flash light"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com:rhaker/react-native-control-flashlight-ios.git"
+  },
+  "author": "rhaker <email@example.com> (http://github.com/rhaker)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhaker/react-native-control-flashlight-ios/issues"
+  },
+  "homepage": "https://github.com/rhaker/react-native-control-flashlight-ios",
+  "dependencies": {
+    "react-native": "^0.10.0"
+  },
+  "devDependencies": {}
+}
