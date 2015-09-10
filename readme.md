@@ -1,6 +1,6 @@
 # react-native-control-flashlight-ios
 
-This is a wrapper for react-native that controls a device's flashlight. The options are flashlight on or flashlight off. This is for ios.
+This is a wrapper for react-native that controls a device's flashlight. The options are flashlight on or flashlight off. This is for an ios device.
 
 # Add it to your project
 
